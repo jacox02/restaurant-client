@@ -9,6 +9,7 @@ import { OrdersComponent } from './orders/orders.component';
 import { NavbarComponent } from './common/navbar/navbar.component';
 import { NotfoundComponent } from './common/notfound/notfound.component';
 import { HttpClientModule } from '@angular/common/http';
+import { LandingComponent } from './landing/landing.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
     OrdersComponent,
     NavbarComponent,
     NotfoundComponent,
+    LandingComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
